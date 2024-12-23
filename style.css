@@ -1,0 +1,6 @@
+.welcome_div {
+    display: flex;
+    justify-content: center;
+    width: 1350px;
+    height: 570px;
+}

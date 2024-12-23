@@ -1,6 +1,56 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url("./fonts/Montserrat-Bold.ttf");
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #1C222D;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .welcome_div {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     width: 1350px;
     height: 570px;
+    border: 2px white solid;
+    border-radius: 20px;
+    justify-content: center;
+    background-image: url("./img/rb_746.png");
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    /* filter: blur(20px); */
+}
+
+.welcome_div::bef   ore {
+    z-index: -1;
+    filter: blur(20px);
+}
+
+.content {
+    z-index: 1;
+    filter: blur(0px);
+}
+
+/* .welcome_div spline-viewer {
+    z-index: -1;
+    position: absolute;
+    filter: blur(19px);   
+} */
+.welcome_div h1 {
+    color: white;
+    max-width: 855px;
+    font-family: "Montserrat";
+    font-size: 64px;
+}
+.welcome_div p {
+    color: white;
+    max-width: 477px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
 }

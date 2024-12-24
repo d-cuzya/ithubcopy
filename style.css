@@ -20,21 +20,20 @@ body {
     border: 2px white solid;
     border-radius: 20px;
     justify-content: center;
-    background-image: url("./img/rb_746.png");
-    background-size: cover;
-    background-position: center;
-    z-index: -1;
-    /* filter: blur(20px); */
-}
-
-.welcome_div::bef   ore {
-    z-index: -1;
-    filter: blur(20px);
-}
-
-.content {
+    /* background-image: url("./img/rb_746.png"); */
+    /* background-size: cover; */
+    /* background-position: center; */
+    overflow: hidden;
     z-index: 1;
-    filter: blur(0px);
+}
+
+.welcome_div img {
+    position: absolute;
+    width: 1350px;
+    height: 570px;
+    object-fit: cover;
+    z-index: -1;
+    filter: blur(19px);
 }
 
 /* .welcome_div spline-viewer {

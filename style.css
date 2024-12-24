@@ -139,3 +139,63 @@ header {
     background: none;
     border: 1px solid #ffffff;
 }
+
+.second-container {
+    width: 100%;
+    height: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0px 50px 0px;
+}
+
+.sc-first-div, .sc-second-div {
+    width: 1346px;
+    height: 590px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.sc-block-1, .sc-block-2 {
+    width: 660px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sc-block-1 img,.sc-block-2 img  {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.sc-text-block {
+    width: 100%;
+    height: 280px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.open-door {
+    border-radius: 20px;
+    background-color: #AB00EA;
+}
+
+.sc-minblock {
+    width: 315px;
+    height: 280px;
+    background-color: #3E3F56;
+    border-radius: 20px;
+}
+
+.sc-block {
+    width: 100%;
+    height: 280px;
+    background-color: #3E3F56;
+    border-radius: 20px;
+}

@@ -1,7 +1,15 @@
 @font-face {
     font-family: "Montserrat";
-    src: url("./fonts/Montserrat-Bold.ttf");
+    src: 
+    url("./fonts/JTUSjIg1_i6t8kCHKm459W1hyzbi.woff2");
+    /* url("./fonts/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2"); */
 }
+/* 
+@font-face {
+    font-family: "Montserrat";
+    src: 
+    url("./fonts/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2");
+} */
 
 body {
     padding: 0;
@@ -9,21 +17,32 @@ body {
     background-color: #1C222D;
     display: flex;
     flex-direction: column;
+    width: 100%;
+    /* align-items: center; */
+}
+
+header {
+    width: 100%;
+    height: 77px;
+    background-color: #1D1D1B;
+}
+
+.first-container {
+    width: 100%;
+    height: 630px;
+    display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .welcome_div {
     display: flex;
     flex-direction: column;
-    width: 1350px;
-    height: 570px;
+    width: 1346px;
+    height: 566px;
     border: 2px white solid;
     border-radius: 20px;
-    justify-content: center;
-    /* background-image: url("./img/rb_746.png"); */
-    /* background-size: cover; */
-    /* background-position: center; */
-    overflow: hidden;
+    /* justify-content: center; */
     z-index: 1;
 }
 
@@ -36,20 +55,54 @@ body {
     filter: blur(19px);
 }
 
-/* .welcome_div spline-viewer {
-    z-index: -1;
-    position: absolute;
-    filter: blur(19px);   
-} */
+.welcome_div .content {
+    padding: 4px 0 0 114px;
+}
+
 .welcome_div h1 {
     color: white;
     max-width: 855px;
-    font-family: "Montserrat";
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
     font-size: 64px;
+    font-weight: 700;
+    height: 256px;
+    width: 855px;
+    vertical-align: middle;
+    line-height : 64px;
+    margin-bottom: 20px;
 }
 .welcome_div p {
     color: white;
     max-width: 477px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 24px;
+    width: 477px;
+    line-height : 24px;
+    height : 72px;
+}
+
+.welcome_div input {
+    width: 287px;
+    height: 53px;
+    color: white;
+    font-family: "Montserrat";
+    border-radius: 20px;
+    font-size: 24px;
+}
+
+.welcome_btns {
+    display: flex;
+    margin-top: 70px;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.btn1 {
+    background-color: #B008EC;
+    border: none;
+}
+
+.btn2 {
+    background: none;
+    border: 1px solid #ffffff;
 }

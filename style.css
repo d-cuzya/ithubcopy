@@ -491,6 +491,7 @@ justify-content: space-between;
     /* justify-content: center; */
     width: 100%;
     height: 2622px;
+    margin-bottom: 50px;
 }
 
 .stud_photos-container h2 {
@@ -526,4 +527,18 @@ justify-content: space-between;
     width: 402px;
     height: 100%;
     border-radius: 20px;
+}
+
+.advantages-container {
+    width: 100%;
+    height: 710px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.advantages-div {
+    width: 1350px;
+    height: 100%;
+    background-color: aqua;
 }

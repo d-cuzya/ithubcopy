@@ -11,6 +11,10 @@
     url("./fonts/Montserrat-Bold.ttf");
 } 
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     padding: 0;
     margin: 0;
@@ -142,7 +146,7 @@ header {
 
 .second-container {
     width: 100%;
-    height: 1200px;
+    height: 1300px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -449,6 +453,77 @@ justify-content: space-between;
 .photos-line img {
     width: 400px;
     height: 100%;
-    object-fit: fill;
+    object-fit: cover;
     border-radius: 20px;
-}  
+} 
+
+.the_tour-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    width: 100%;
+    height: 290px;
+}
+
+.the_tour-div {
+    width: 1350px;
+    height: 100%;
+    border: none;
+    background-color: #3E3F56;
+    border-radius: 20px;
+    padding: 20px 20px 10px 20px;
+}
+
+.the_tour-div h2 {
+    color: white;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    vertical-align: middle;
+    margin: 0;
+}
+
+.stud_photos-container {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* gap: 0; */
+    /* justify-content: center; */
+    width: 100%;
+    height: 2622px;
+}
+
+.stud_photos-container h2 {
+    width: 1350px;
+    color: white;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-size: 64px;
+    vertical-align: middle;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.stud_photos-div {
+    width: 1350px;
+    height: 100%;
+    background-color: #3E3F56;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 20px 10px 20px;
+}
+
+.stud_photos-line {
+    width: 100%;
+    height: 282px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.stud_photos-line img {
+    width: 402px;
+    height: 100%;
+    border-radius: 20px;
+}

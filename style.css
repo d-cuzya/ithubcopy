@@ -205,6 +205,7 @@ header {
     justify-content: center;
     width: 100%;
     height: 1200px;
+    margin-bottom: 50px;
 }
 
 .why-div h2 {
@@ -338,4 +339,79 @@ header {
     height: 440px;
     background-color: #3E3F56;
     border-radius: 20px;
+}
+
+.specialization-container {
+    width: 100%;
+    height: 1730px;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-bottom: 100px;
+}
+
+.specialization-div {
+    width: 1346px;
+    height: 100%;
+    padding: 20px 20px 10px 20px;
+    background-color: #3E3F56;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.specialization-div h2 {
+    display: flex;
+    width: 100%;
+    font-size: 64px;
+    font-family: "Montserrat-bold";
+    color:white;
+}
+
+.specializations-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 1550px;
+}
+
+.specializations-line {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 470px;
+}
+
+.specialization-block {
+    /* display: flex; */
+    width: 410px;
+    height: 100%;
+    background-color: none;
+    border-radius: 20px;
+}
+
+.specialization-color {
+    background-color: #141821;
+}
+
+.form-color {
+    background-color: #AB00EA;
+}
+
+.photos-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 765px;
+    border-radius: 20px;
+}
+
+.photos-div {
+    width: 1346px;
+    height: 100%;
+    background-color: #3E3F56;
+    bo
 }

@@ -435,7 +435,6 @@ header {
     height: 100%;
     flex-direction: column;
     justify-content: space-between;
-    background-color: #AB00EA;
 }
 
 .photos-line {
@@ -444,11 +443,12 @@ width: 100%;
 height:48%;
 flex-direction: row;
 justify-content: space-between;
+/* background-color: aqua; */
 }
 
 .photos-line img {
     width: 400px;
     height: 100%;
-    object-fit: cover;
+    object-fit: fill;
     border-radius: 20px;
 }  
